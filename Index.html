@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8"/>
+    <link href="http://fonts.googleapis.com/css?family=PT+Sans:400,700,400italic&amp;subset=latin,cyrillic" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="css/normalize.css"/>
     <link rel="stylesheet" href="css/style.css"/>
     <title>Cпецтех24</title>
@@ -11,9 +12,8 @@
       <div class="container">
 
 
-
-        <a href="#" class="page__logo left">
-            <img class="page__logo-img" src=" http://placehold.it/50x50" alt="Машинка">
+        <a href="#" class="page-logo baner-left">
+            <img class="page-logo__img" src="img/truck_icon.svg" alt="Машинка">
             <span class="page-logo__logo-brand">
               <b>Спецтех</b>24
           </span>
@@ -22,14 +22,14 @@
 
 
 
-      <nav class="page-nav right">
+      <nav class="page-nav baner-right">
           <ul class="page-nav__list">
 
-            <li><a class="page-nav__list-item" href="#"></a>О компании</li>
-            <li><a class="page-nav__list-item" href="#"></a>Каталог</li>
-            <li><a class="page-nav__list-item" href="#"></a>Портфолио</li>
-            <li><a class="page-nav__list-item" href="#"></a>Контакты</li>
-            <li><a class="page-nav__list-item item-btn" href="#">Заказать</a></li>
+            <li class=page-nav__list-item><a class="page-nav__list-item-link" href="#"></a>О компании</li>
+            <li class=page-nav__list-item><a class="page-nav__list-item-link" href="#"></a>Каталог</li>
+            <li class=page-nav__list-item><a class="page-nav__list-item-link" href="#"></a>Портфолио</li>
+            <li class=page-nav__list-item><a class="page-nav__list-item-link" href="#"></a>Контакты</li>
+            <li class=page-nav__list-item><a class="page-nav__list-item-link item-btn" href="#">Заказать звонок</a></li>
 
         </ul>
     </nav>
@@ -44,13 +44,15 @@
 <main>
 
   <div class="promo">
-    <div class="container">
-      <p class="promo__slogan">Вместе мы справимся</p>
-      <h1 class="promo__title">Спецтех24 - это сеть пунктов аренды спецтехники Cat,
+   <div class="promo__wood">
+    <div class="promo__container">
+      <p class="promo__slogan">Вместе мы справимся!</p>
+      <p class="promo__title">Спецтех24 - это сеть пунктов аренды спецтехники Cat,
         оборудования и специализированных инструментов для выполнения большинства
-        видов работ.</h1>
-        <a class="promo__bnt" href="#">Перейти в каталог</a>
+        видов работ.</p>
+        <a class="promo__btn" href="#">Перейти в каталог</a>
     </div>
+  </div>
 </div>
 
 
@@ -59,14 +61,14 @@
     <div class="container">
 
 
-      <h2 class="consult__title">Заказать бесплатную консультацию
-        по подбору подходящей техники</h2>
+      <span class="consult__title">Закажите бесплатную консультацию
+        по подбору подходящей техники</span>
         <form action="#" class="consult-form">
 
             <input class="consult-form__input" type="text" placeholder="Как вас зовут"/>
             <input class="consult-form__input" type="text" placeholder="Номер для связи"/>
             <input class="consult-form__input" type="text" placeholder="Выберите дату"/>
-            <input class="consult-form__submit" type="submit" placeholder="Заказать консультацию"/>
+            <input class="consult-form__submit" type="submit" value="Заказать консультацию"/>
 
         </form>
 
@@ -79,25 +81,17 @@
 
 
 
-  <div class="features-item features-item-tool">
-    <img class="features-item__img" src=" http://placehold.it/50x50" alt="features-img">
-    <p class="features-item__text">Техника проходит обязательное обслуживание перед выездом</p>
-</div>
 
-<div class="features-item features-items-work">
-    <img class="features-item__img" src="http://placehold.it/50x50" alt="features-img">
-    <p class="features-item__text">Все машины оборудованы спец. сигналами для предупреждения аварий</p>
-</div>
+    <p class="features-item features-item-tool">Техника проходит обязательное обслуживание перед  каждым выездом</p>
 
-<div class="features-item features-items-fencing">
-    <img class="features-item__img" src="http://placehold.it/50x50" alt="features-img">
-    <p class="features-item__text">Привезем модные строительные ограждения к каждому заказу от 20 000</p>
-</div>
+    <p class="features-item features-item-work">Все машины оборудованы спец. сигналами для предупреждения аварий</p>
 
-<div class="features-item features-items-workman">
-    <img class="features-item__img" src="http://placehold.it/50x50" alt="features-img">
-    <p class="features-item__text">С техникой приедут квалифицированные операторы и водители</p>
-</div>
+
+
+    <p class="features-item features-item-fencing">Привезем модные строительные ограждения к каждому заказу от 20 000</p>
+
+    <p class="features-item features-item-workman">С техникой приедут квалифицированные операторы и водители</p>
+
 
 
 </div>
@@ -216,27 +210,27 @@
  <div class="container">
 
 
-  <a href="#" class="page__logo left">
-    <img class="page__logo-img" src="http://placehold.it/50x50" alt="Машинка">
-    <span class="page-logo__logo-brand">
-      <b>Спецтех</b>24
-  </span>
-</a>
+  <a href="#" class="page-logo baner-left">
+            <img class="page-logo__img" src="img/truck_icon_footer.svg" alt="Машинка">
+            <span class="page-logo__logo-brand">
+              <b>Спецтех</b>24
+          </span>
+      </a>
 
 
 
 
-<nav class="page-nav right">
-  <ul class="page-nav__list">
+<nav class="page-nav baner-right">
+          <ul class="page-nav__list">
 
-    <li><a class="page-nav__list-item" href="#"></a>О компании</li>
-    <li><a class="page-nav__list-item" href="#"></a>Каталог</li>
-    <li><a class="page-nav__list-item" href="#"></a>Портфолио</li>
-    <li><a class="page-nav__list-item" href="#"></a>Контакты</li>
-    <li><a class="page-nav__list-item item-btn" href="#">Заказать</a></li>
+            <li class=page-nav__list-item><a class="page-nav__list-item-link" href="#"></a>О компании</li>
+            <li class=page-nav__list-item><a class="page-nav__list-item-link" href="#"></a>Каталог</li>
+            <li class=page-nav__list-item><a class="page-nav__list-item-link" href="#"></a>Портфолио</li>
+            <li class=page-nav__list-item><a class="page-nav__list-item-link" href="#"></a>Контакты</li>
+            <li class=page-nav__list-item><a class="page-nav__list-item-link item-btn" href="#">Заказать звонок</a></li>
 
-</ul>
-</nav>
+        </ul>
+    </nav>
 </div>
 </footer>
 

@@ -1,14 +1,307 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
-<html>
-<head>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-  <meta http-equiv="Content-Style-Type" content="text/css">
-  <title></title>
-  <meta name="Generator" content="Cocoa HTML Writer">
-  <meta name="CocoaVersion" content="1404.46">
-  <style type="text/css">
-  </style>
-</head>
-<body>
-</body>
-</html>
+body{font-family:"Pt Sans", sans-serif;}
+
+/*––––––––Header–––––––––*/
+.page-header{
+    background-color: #ffcd34;}
+
+    .page-header>.container{
+        height: 75px;
+        width: 960px;
+        margin-left:auto;
+        margin-right: auto;
+        .container:after;
+        position: relative;
+    }
+
+    .page-header:after{
+        content:" ";
+        position: absolute;
+        width: 100%;
+        height: 14px;
+        display: block;
+        background-image:linear-gradient(135deg, #ffcd34 35%, black 35%,black 65%, #ffcd34 65%);
+        -webkit-background-size: 35px 20px;
+        background-size: 35px 20px;
+    }
+    .baner-left{
+        float: left;
+        width: 220px;
+        height: 75px;
+    }
+
+    .page-logo{
+        font-size: 24px;
+        text-decoration: none;
+        color: #000000;
+        display: block;
+        margin-left: 20px;
+    }
+
+    .page-logo__img,.page-logo__logo-brand{
+        vertical-align: middle;
+    }
+    .page-logo__img{
+        margin:19px 7.5px 20px 0px;
+    }
+    .page-logo__logo-brand{
+        /*margin-left: 7.5px;*/
+        margin:27px 0px 28px 7.5px;
+    }
+
+    .baner-right{
+        float: right;
+        width: 720px;
+        height: 75px;
+        margin: -40;
+    }
+
+
+}
+.page-nav__list{
+    font-size: 0px;
+
+}
+.page-nav__list-item{
+    padding: 10px 17px 9px;
+    border:2px solid #ffcd34;
+    display: inline-block;
+    font-size: 16px;
+}
+.page-nav__list-item:hover{border:2px solid #bc9d36;transition:ease-out 0.7s;}
+.page-nav__list-item:active{border: 2px solid #796e38;transition:ease-out 0.3s;}
+.page-nav__list-item:last-child{border: none;}
+
+.item-btn{
+    padding:18px 32px 17px 26px;
+    background-color: #ffe184;
+    text-decoration: none;
+    color: #000000;
+}
+
+.item-btn:hover{
+    background-color: #ffecb2;
+    transition:ease-out 0.3s;
+}
+.item-btn:active{
+    background-color: #f6bf16;
+    transition:ease-out 0.3s;
+}
+
+
+/*------Promo------*/
+.promo:after{
+    content:" ";
+    position: absolute;
+    width: 100%;
+    height: 14px;
+    display: block;
+    background-image:linear-gradient(135deg, #ffcd34 35%, black 35%,black 65%, #ffcd34 65%);
+    -webkit-background-size: 35px 20px;
+    background-size: 35px 20px;
+}
+.promo__wood{
+    background-image: url(../img/ekskavator-promo.jpg);
+    -webkit-background-size: cover;
+    background-size: cover;
+    height: 461px;
+}
+.promo__container{
+    width:960px;
+    margin-top:14px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.promo__slogan{
+    text-align: center;
+    width: 640px;
+    margin: 0 auto;
+    color: #fff;
+    padding-left: 10px;
+    text-transform: uppercase;
+    font-size: 44px;
+    font-weight: bold;
+    padding-top: 122px;
+    margin-bottom: 10px;
+}
+
+.promo__title{
+    text-align: center;
+    width: 640px;
+    margin: 0 auto;
+    color: #fff;
+    padding-left: 10px;
+    font-size: 20px;
+    line-height: 26px;
+    margin-bottom: 30px;
+}
+.promo__btn{
+    text-align: center;
+    width: 640px;
+    color: #fff;
+    padding-left: 10px;
+    display: block;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    width: 220px;
+    padding: 5px 5px 7px;
+    border: 2px solid #ffcc33;
+    margin: 0 auto;
+}
+.promo__btn:hover{
+    border: 2px solid #ffd966;
+}
+
+.promo__btn:active{
+    border: 2px solid #ffe390;
+}
+/*------Consult-------*/
+.consult{
+    background-color: #202e3b;
+}
+.consult>.container{
+
+    width: 960px;
+    height: 177px;
+    padding-top:40px;
+    margin-right: auto;
+    margin-left: auto;
+
+}
+
+.consult__title{
+    font-size: 24px;
+    color: #ffcd34;
+    margin:15px 0px 0px 20px;
+
+}
+.consult-form{
+    margin-left: 20px;
+    width: 930px;
+}
+.consult-form__input{
+
+    background-color: #202e3b;
+    border: 1px solid #ffcc33;
+    color: #fff;
+    font-size: 16px;
+    margin:15px 10px 0px 0px;
+    padding: 10px 10px 10px 20px;
+    width: 20%;
+
+}
+.consult-form__submit{
+    font-size: 18px;
+    color: #202e3b;
+    background-color: #ffcd34;
+    padding: 10px 15px 10px 15px;
+    width: 25%;
+    -webkit-appearance: none;
+    border: none;
+    margin:40px 0px;
+}
+
+/*-------Features-----*/
+.features>.container{
+    width: 960px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 47px;
+    margin-bottom: 47px;
+}
+.features-item{
+    display: inline-block;
+    vertical-align: top;
+    padding-left: 50px;
+    font-size: 13px;
+    text-align: left;
+    padding-left:70px;
+    margin-left:10px
+}
+
+.features-item-tool{
+    width: 17%;
+    position: relative;
+}
+.features-item-tool:before{
+    content: ' ';
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    left:10px;
+    background-image: url(../img/features-item-1.svg);
+    -webkit-background-size: cover;
+    background-size: cover;
+
+}
+.features-item-work{
+    width: 16%;
+    position: relative;
+}
+.features-item-work:before{
+    content: ' ';
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    left:10px;
+    background-image: url(../img/features-item-2.svg);
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+.features-item-fencing{
+    width: 17%;
+    position: relative;
+}
+.features-item-fencing:before{
+    content: ' ';
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    left:10px;
+    background-image: url(../img/features-item-3.svg);
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+.features-item-workman{
+ width: 15%;
+ position: relative;
+}
+.features-item-workman:before{
+    content: ' ';
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    left:10px;
+    background-image: url(../img/features-item-4.svg);
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+
+/*-------Footer-------*/
+.page-footer{
+    background-color: #202e3b;
+    color:#fff;
+    text-decoration: none;
+}
+.page-footer>.container{
+    height: 75px;
+    width: 960px;
+    margin-left:auto;
+    margin-right: auto;
+
+}
+.page-footer .page-logo__logo-brand{
+    color:#ffcd34;
+}
+.page-footer .page-nav__list-item{border:2px solid #202e3b;}
+.page-footer .page-nav__list-item:hover{border:2px solid #48535e;}
+.page-footer .page-nav__list-item:active{ border: 2px solid #a6abb1;}
+.page-footer .page-nav__list-item:last-child{border:none;}
+
+.page-footer .item-btn{
+    background-color: #202e3b;
+    color:#ffcd34;
+}
+
+
+
