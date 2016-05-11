@@ -9,65 +9,71 @@
 <body>
 
 
-    <header class="page-header">
-      <div class="container">
+   <header class="page-header">
+    <div class="container">
 
 
-
-        <a href="#" class="page__logo left">
-            <img class="page__logo-img" src=" http://placehold.it/50x50" alt="Машинка">
-            <span class="page-logo__logo-brand">
-              <b>Спецтех</b>24
-          </span>
+      <a href="index.html" class="page-logo baner-left">
+        <img class="page-logo__img" src="img/truck_icon.svg" alt="Машинка">
+        <span class="page-logo__logo-brand">
+          <b>Спецтех</b>24
+        </span>
       </a>
 
 
 
 
-      <nav class="page-nav right">
-          <ul class="page-nav__list">
+      <nav class="page-nav baner-right">
+        <ul class="page-nav__list">
 
-            <li><a class="page-nav__list-item" href="#"></a>О компании</li>
-            <li><a class="page-nav__list-item" href="#"></a>Каталог</li>
-            <li><a class="page-nav__list-item" href="#"></a>Портфолио</li>
-            <li><a class="page-nav__list-item" href="#"></a>Контакты</li>
-            <li><a class="page-nav__list-item item-btn" href="#">Заказать</a></li>
+          <li class=page-nav__list-item><a class="page-nav__list-item-link" href="index.html">О компании</a></li>
+          <li class=page-nav__list-item><a class="page-nav__list-item-link" href="catalog.html">Каталог</a></li>
+          <li class=page-nav__list-item><a class="page-nav__list-item-link" href="portfolio.html">Портфолио</a></li>
+          <li class=page-nav__list-item><a class="page-nav__list-item-link" href="contacts.html">Контакты</a></li>
+          <li class=page-nav__list-item><a class="page-nav__list-item-link item-btn" href="#">Заказать звонок</a></li>
 
         </ul>
-    </nav>
+      </nav>
 
-<hr class="divider">
+
+
+    </div>
+  </header>
 
 <main>
 
-<header class="Contacts-header">
-  <div class="container">
-    <div class="Contacts-header__slogan left">
-    <h2 class="Contacts-header__slogan-title">Контакты</h2>
-    <p class="Contacts-header__slogan-text">Свяжитесь с нами, и все будет хорошо</p>
+  <header class="contacts-header">
+   <div class="container">
+
+
+    <div class="contacts-header__slogan contacts-header__left">
+    <h2 class="contacts-header__slogan-title">Контакты<span>Свяжитесь с нами, и все будет хорошо</span></h2>
     </div>
 
-    <div class="Cotacts-header__consult right">
-      <a href="#" class="Contacts-header__consult-btn">Мне нужна консультация</a>
+    <div class="contacts-header__consult contacts-header__right">
+      <a href="#" class="contacts-header__consult-btn">Мне нужна консультация</a>
     </div>
-  </div>
+   </div>
   </header>
+
+
 
 <section class="contacts-post">
   <div class="container">
 
-    <div class="contacts-post__map left">
+    <div class="contacts-post__map contacts-left">
       <iframe class="contacts-post__map-item" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2245.2631792127568!2d37.61860631573326!3d55.75393028055368!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46b54a5a738fa419%3A0x7c347d506b52311f!2z0JrRgNCw0YHQvdCw0Y8g0J_Qu9C-0YnQsNC00Yw!5e0!3m2!1sen!2sru!4v1461943236509" width="100%" height="100%" frameborder="0" style="border:0" allowfullscreen></iframe>
     </div>
 
-    <div class="contacts-post__form right">
+    <div class="contacts-post__form contacts-right">
       <p class="contacts-post__form-number">+7 (812) 212 85 06</p>
       <a class="contacts-post__form-mail" href="#">rent@spezteh.ru</a>
+      <p class="contacts-post__form-text">Заказать консультацию по подбору подходящей техники:</p>
       <form action="#" class="contacts-post__form-consult">
         <input class="contacts-post__form-consult-input" type="text" placeholder="Имя"/>
         <input class="contacts-post__form-consult-input" type="text" placeholder="Телефон для связи"/>
         <input class="contacts-post__form-consult-input" type="text" placeholder="Описание задачи(можно примерное)"/>
-        <input class="contacts-post__form-consult-submit" type="submit" placeholder="Получить консультацию"/>
+        <input class="contacts-post__form-consult-submit" type="submit" value="Получить консультацию"/>
       </form>
 
     </div>
@@ -75,44 +81,44 @@
   </div>
   </section>
 
-  <section class="about-reviews">
+  <section class="contacts__about-reviews">
         <div class="container">
-          <h2 class=”subtitle”>Отзывы</h2>
+          <h2 class=”contacts__about-reviews-title”>Отзывы</h2>
 
-           <div class="about-reviews__item">
-            <img class="about-reviews__item-img" src="http://placehold.it/100x100" alt=”Оля”>
+           <div class="contacts__about-reviews-item">
+            <img class="about-reviews__item-img" src="img/contatcs-review-1.jpg" alt=”Оля”>
               <blockquote class="about-reviews__item-quote">Спецтех24 - это надежные партнеры нашей компании,
                 которые всегда выполняют работу быстро и еще у них отличное чувство юмора!
-                Благодарим и рекомендуем.
-                <cite>Оля Молния, Реал-Строй</cite>
+                Благодарим и рекомендуем.<br>
+                <cite>Оля Молния</cite>
               </blockquote>
            </div>
 
-           <div class="about-reviews__item">
-            <img class="about-reviews__item-img" src="http://placehold.it/100x100" alt=”Оля”>
+           <div class="contacts__about-reviews-item">
+            <img class="about-reviews__item-img" src="img/contacts-review-2.jpg" alt=”Оля”>
               <blockquote class="about-reviews__item-quote">Спецтех24 - это надежные партнеры нашей компании,
                 которые всегда выполняют работу быстро и еще у них отличное чувство юмора!
-                Благодарим и рекомендуем.
-                <cite>Оля Молния, Реал-Строй</cite>
+                Благодарим и рекомендуем.<br>
+                <cite>Оля Молния</cite>
               </blockquote>
            </div>
 
-          <div class="about-reviews__item">
-            <img class="about-reviews__item-img" src="http://placehold.it/100x100" alt=”Оля”>
+          <div class="contacts__about-reviews-item">
+            <img class="about-reviews__item-img" src="img/contacts-review-3.jpg" alt=”Оля”>
               <blockquote class="about-reviews__item-quote">Спецтех24 - это надежные партнеры нашей компании,
                 которые всегда выполняют работу быстро и еще у них отличное чувство юмора!
-                Благодарим и рекомендуем.
-                <cite>Оля Молния, Реал-Строй</cite>
+                Благодарим и рекомендуем.<br>
+                <cite>Оля Молния</cite>
               </blockquote>
            </div>
 
 
-          <div class="about-reviews__item">
-            <img class="about-reviews__item-img" src="http://placehold.it/100x100" alt=”Оля”>
+          <div class="contacts__about-reviews-item">
+            <img class="about-reviews__item-img" src="img/contacts-review-4.jpg" alt=”Оля”>
               <blockquote class="about-reviews__item-quote">Спецтех24 - это надежные партнеры нашей компании,
                 которые всегда выполняют работу быстро и еще у них отличное чувство юмора!
-                Благодарим и рекомендуем.
-                <cite>Оля Молния, Реал-Строй</cite>
+                Благодарим и рекомендуем.<br>
+                <cite>Оля Молния</cite>
               </blockquote>
            </div>
 
@@ -124,34 +130,33 @@
 </main>
 
 <footer class="page-footer">
- <div class="container">
+     <div class="container">
 
 
-  <a href="#" class="page__logo left">
-    <img class="page__logo-img" src="http://placehold.it/50x50" alt="Машинка">
-    <span class="page-logo__logo-brand">
-      <b>Спецтех</b>24
-  </span>
-</a>
+      <a href="index.html" class="page-logo baner-left">
+        <img class="page-logo__img" src="img/truck_icon_footer.svg" alt="Машинка">
+        <span class="page-logo__logo-brand">
+          <b>Спецтех</b>24
+        </span>
+      </a>
 
 
 
 
-<nav class="page-nav right">
-  <ul class="page-nav__list">
+      <nav class="page-nav baner-right">
+        <ul class="page-nav__list">
 
-    <li><a class="page-nav__list-item" href="#"></a>О компании</li>
-    <li><a class="page-nav__list-item" href="#"></a>Каталог</li>
-    <li><a class="page-nav__list-item" href="#"></a>Портфолио</li>
-    <li><a class="page-nav__list-item" href="#"></a>Контакты</li>
-    <li><a class="page-nav__list-item item-btn" href="#">Заказать</a></li>
+          <li class=page-nav__list-item><a class="page-nav__list-item-link" href="index.html">О компании</a></li>
+          <li class=page-nav__list-item><a class="page-nav__list-item-link" href="catalog.html">Каталог</a></li>
+          <li class=page-nav__list-item><a class="page-nav__list-item-link" href="portfolio.html">Портфолио</a></li>
+          <li class=page-nav__list-item><a class="page-nav__list-item-link" href="contacts.html">Контакты</a></li>
+          <li class=page-nav__list-item><a class="page-nav__list-item-link item-btn" href="#">Заказать звонок</a></li>
 
-</ul>
-</nav>
-</div>
-</footer>
-
-
-<script src="js/live.js"></script>
+        </ul>
+      </nav>
+    </div>
+  </footer>
+  <script src="js/tcal.js"></script>
+  <script src="js/live.js"></script>
 </body>
 </html>
