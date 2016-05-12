@@ -1,7 +1,8 @@
-@import url(https://fonts.googleapis.com/css?family=PT+Sans:400,400italic,700&subset=cyrillic,latin);
+@import url('https://fonts.googleapis.com/css?family=PT+Sans:400,400italic,700&subset=cyrillic,latin');
 body{font-family:"Pt Sans", sans-serif;
 box-sizing: border-box;
 }
+*{ outline: none;}
 /*––––––––Header–––––––––*/
 .page-header{
     background-color: #ffcd34;}
@@ -54,261 +55,257 @@ box-sizing: border-box;
 
 
 
-.page-nav__list{
-    margin-right: 0px;
-    font-size: 0px;
-    padding-left: 0px;
-    margin-top: 15px;
+    .page-nav__list{
+        margin-right: 0px;
+        font-size: 0px;
+        padding-left: 0px;
+        margin-top: 15px;
 
 
-}
-.page-nav__list-item{
-    padding: 10px 17px 9px;
-    border:2px solid #ffcd34;
-    display: inline-block;
-    font-size: 16px;
-    cursor:pointer;
-
-}
-
-.page-nav__list-item:last-child{
-    padding-right: 0px;
-    margin-right: 0px;
-}
-.page-nav__list-item:first-child{
-margin-left: 25px;
-}
-.page-nav__list-item:hover{border:2px solid #bc9d36;transition:ease-out 0.7s;}
-.page-nav__list-item:active{border: 2px solid #796e38;transition:ease-out 0.3s;}
-.page-nav__list-item:last-child{border: none;}
-
-.page-nav__list-item-link{
-    text-decoration: none;
-    font-size: 16px;
-    color: #000;
-}
-.item-btn{
-    padding:16px 32px;
-    background-color: #ffe184;
-    text-decoration: none;
-    color: #000000;
-}
-
-.item-btn:hover{
-    background-color: #ffecb2;
-    transition:ease-out 0.3s;
-}
-.item-btn:active{
-    background-color: #f6bf16;
-    transition:ease-out 0.3s;
-}
-
-
-/*------Index-Promo------*/
-.promo:after{
-    content:" ";
-    position: absolute;
-    width: 100%;
-    height: 14px;
-    display: block;
-    background-image:linear-gradient(135deg, black 35%, #ffcd34 35%,#ffcd34 65%, black 65%);
-    -webkit-background-size: 35px 20px;
-    background-size: 35px 20px;
-    margin-bottom: 15px;
-}
-.promo__wood{
-    background-image: url(../img/ekskavator-promo.jpg);
-    -webkit-background-size: cover;
-    background-size: cover;
-    height: 461px;
-}
-.promo__container{
-    width:960px;
-    margin-top:14px;
-    margin-left: auto;
-    margin-right: auto;
-}
-.promo__slogan{
-    text-align: center;
-    width: 640px;
-    margin: 0 auto;
-    color: #fff;
-    padding-left: 10px;
-    text-transform: uppercase;
-    font-size: 44px;
-    font-weight: bold;
-    padding-top: 122px;
-    margin-bottom: 10px;
-}
-
-.promo__title{
-    text-align: center;
-    width: 640px;
-    margin: 0 auto;
-    color: #fff;
-    padding-left: 10px;
-    font-size: 20px;
-    line-height: 26px;
-    margin-bottom: 30px;
-    font-weight: normal;
-}
-.promo__btn{
-    text-align: center;
-    width: 640px;
-    color: #fff;
-    padding-left: 10px;
-    display: block;
-    text-decoration: none;
-    font-size: 16px;
-    font-weight: bold;
-    width: 160px;
-    padding: 5px 19px 5px 0px;
-    border: 2px solid #ffcc33;
-    margin: 0 auto;
-    position: relative;
-}
-.promo__btn:after{
-    content: '';
-    position: absolute;
-    width: 15px;
-    height: 18px;
-    -webkit-background-size: contain;
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-image: url(../img/promo-btn-after.svg);
-    left:155px;
-    top:7px;
-}
-.promo__btn:hover{
-    border: 2px solid #ffd966;
-}
-
-.promo__btn:active{
-    border: 2px solid #ffe390;
-}
-/*------Consult-------*/
-.consult{
-    background-color: #202e3b;
-}
-.consult>.container{
-
-    width: 960px;
-    height: 177px;
-    padding-top:40px;
-    margin-right: auto;
-    margin-left: auto;
-
-}
-
-.consult__title{
-    font-size: 24px;
-    color: #ffcd34;
-    margin:15px 0px 0px 20px;
-
-
-}
-.consult-form{
-    margin-left: 20px;
     }
-.consult-form__input{
-    background-color: #202e3b;
-    border: 1px solid #ffcc33;
-    color: #fff;
-    font-size: 16px;
-    margin:15px 10px 0px 0px;
-    padding: 10px 10px 10px 20px;
-    width: 19.5%;
-    position: relative;
-}
-.consult-form__submit{
-    font-size: 18px;
-    color: #202e3b;
-    background-color: #ffcd34;
-    padding: 10px 15px 10px 15px;
-    width: 25%;
-    -webkit-appearance: none;
-    border: none;
-    margin:40px 0px;
-}
-.consult-form__input:nth-child(3):after{
-    content: '';
-    position: absolute;
-    display: inline-block;
-    background-image: url(../img/consult-date-after.svg);
-    -webkit-background-size: 100%;
-    background-size: 100%;
-    height: 10px;
-    width: 20px;
-    margin-left: 35px;
-}
+    .page-nav__list-item{
+        padding: 10px 17px 9px;
+        border:2px solid #ffcd34;
+        display: inline-block;
+        font-size: 16px;
+        cursor:pointer;
 
-/*-------Features-----*/
-.features>.container{
-    width: 960px;
-    height: 88px;
-    margin-right: auto;
-    margin-left: auto;
-    margin-top: 24px;
-    margin-bottom: 23px;
-}
-.features-item{
-    display: inline-block;
-    vertical-align: middle;
-    padding-left: 50px;
-    font-size: 13px;
-    text-align: left;
-    padding-left:70px;
-    margin-left:10px
-}
+    }
 
-.features-item-tool{
-    width: 17%;
-    position: relative;
-}
-.features-item-tool:before{
-    content: ' ';
-    position: absolute;
-    width: 50px;
-    height: 50px;
-    left:10px;
-    background-image: url(../img/features-item-1.svg);
-    -webkit-background-size: cover;
-    background-size: cover;
+    .page-nav__list-item:last-child{
+        padding-right: 0px;
+        margin-right: 0px;
+    }
+    .page-nav__list-item:first-child{
+        margin-left: 25px;
+    }
+    .page-nav__list-item:hover{border:2px solid #bc9d36;transition:ease-out 0.7s;}
+    .page-nav__list-item:active{border: 2px solid #796e38;transition:ease-out 0.3s;}
+    .page-nav__list-item:last-child{border: none;}
 
-}
-.features-item-work{
-    width: 16%;
-    position: relative;
-}
-.features-item-work:before{
-    content: ' ';
-    position: absolute;
-    width: 50px;
-    height: 50px;
-    left:10px;
-    background-image: url(../img/features-item-2.svg);
-    -webkit-background-size: cover;
-    background-size: cover;
-}
-.features-item-fencing{
-    width: 17%;
-    position: relative;
-}
-.features-item-fencing:before{
-    content: ' ';
-    position: absolute;
-    width: 50px;
-    height: 50px;
-    left:10px;
-    background-image: url(../img/features-item-3.svg);
-    -webkit-background-size: cover;
-    background-size: cover;
-}
-.features-item-workman{
-   width: 15%;
-   position: relative;
-}
-.features-item-workman:before{
+    .page-nav__list-item-link{
+        text-decoration: none;
+        font-size: 16px;
+        color: #000;
+    }
+    .item-btn{
+        padding:16px 32px;
+        background-color: #ffe184;
+        text-decoration: none;
+        color: #000000;
+    }
+
+    .item-btn:hover{
+        background-color: #ffecb2;
+        transition:ease-out 0.3s;
+    }
+    .item-btn:active{
+        background-color: #f6bf16;
+        transition:ease-out 0.3s;
+    }
+
+
+    /*------Index-Promo------*/
+    .promo:after{
+        content:" ";
+        position: absolute;
+        width: 100%;
+        height: 14px;
+        display: block;
+        background-image:linear-gradient(135deg, black 35%, #ffcd34 35%,#ffcd34 65%, black 65%);
+        -webkit-background-size: 35px 20px;
+        background-size: 35px 20px;
+        margin-bottom: 15px;
+    }
+    .promo__wood{
+        background-image: url(../img/ekskavator-promo.jpg);
+        -webkit-background-size: cover;
+        background-size: cover;
+        height: 461px;
+    }
+    .promo__container{
+        width:960px;
+        margin-top:14px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .promo__slogan{
+        text-align: center;
+        width: 640px;
+        margin: 0 auto;
+        color: #fff;
+        padding-left: 10px;
+        text-transform: uppercase;
+        font-size: 44px;
+        font-weight: bold;
+        padding-top: 122px;
+        margin-bottom: 10px;
+    }
+
+    .promo__title{
+        text-align: center;
+        width: 640px;
+        margin: 0 auto;
+        color: #fff;
+        padding-left: 10px;
+        font-size: 20px;
+        line-height: 26px;
+        margin-bottom: 30px;
+        font-weight: normal;
+    }
+    .promo__btn{
+        text-align: center;
+        width: 640px;
+        color: #fff;
+        padding-left: 10px;
+        display: block;
+        text-decoration: none;
+        font-size: 16px;
+        font-weight: bold;
+        width: 160px;
+        padding: 5px 19px 5px 0px;
+        border: 2px solid #ffcc33;
+        margin: 0 auto;
+        position: relative;
+    }
+    .promo__btn:after{
+        content: '';
+        position: absolute;
+        width: 15px;
+        height: 18px;
+        -webkit-background-size: contain;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-image: url(../img/promo-btn-after.svg);
+        left:155px;
+        top:7px;
+    }
+    .promo__btn:hover{
+        border: 2px solid #ffd966;
+    }
+
+    .promo__btn:active{
+        border: 2px solid #ffe390;
+    }
+    /*------Consult-------*/
+    .consult{
+        background-color: #202e3b;
+    }
+    .consult>.container{
+
+        width: 960px;
+        height: 177px;
+        padding-top:40px;
+        margin-right: auto;
+        margin-left: auto;
+
+    }
+
+    .consult__title{
+        font-size: 24px;
+        color: #ffcd34;
+        margin:15px 0px 0px 20px;
+
+
+    }
+    .consult-form{
+        margin-left: 20px;
+    }
+    .consult-form__input{
+        background-color: #202e3b;
+        border: 1px solid #ffcc33;
+        color: #fff;
+        font-size: 16px;
+        margin:15px 10px 0px 0px;
+        padding: 10px 10px 10px 20px;
+        width: 19.5%;
+        position: relative;
+    }
+    .consult-form__submit{
+        font-size: 18px;
+        color: #202e3b;
+        background-color: #ffcd34;
+        padding: 10px 20px 10px 15px;
+        width: 25%;
+        -webkit-appearance: none;
+        border: none;
+        margin:40px 0px;
+        cursor: pointer;
+    }
+    .consult-form__submit:hover{
+        background-color: #ffd966;
+    }
+    .consult-form__submit:active{
+        background-color: #f6bf16;
+    }
+
+    /*-------Features-----*/
+    .features>.container{
+        width: 960px;
+        height: 88px;
+        margin-right: auto;
+        margin-left: auto;
+        margin-top: 24px;
+        margin-bottom: 23px;
+    }
+    .features-item{
+        display: inline-block;
+        vertical-align: middle;
+        padding-left: 50px;
+        font-size: 13px;
+        text-align: left;
+        padding-left:70px;
+        margin-left:10px
+    }
+
+    .features-item-tool{
+        width: 17%;
+        position: relative;
+    }
+    .features-item-tool:before{
+        content: ' ';
+        position: absolute;
+        width: 50px;
+        height: 50px;
+        left:10px;
+        background-image: url(../img/features-item-1.svg);
+        -webkit-background-size: cover;
+        background-size: cover;
+
+    }
+    .features-item-work{
+        width: 16%;
+        position: relative;
+    }
+    .features-item-work:before{
+        content: ' ';
+        position: absolute;
+        width: 50px;
+        height: 50px;
+        left:10px;
+        background-image: url(../img/features-item-2.svg);
+        -webkit-background-size: cover;
+        background-size: cover;
+    }
+    .features-item-fencing{
+        width: 17%;
+        position: relative;
+    }
+    .features-item-fencing:before{
+        content: ' ';
+        position: absolute;
+        width: 50px;
+        height: 50px;
+        left:10px;
+        background-image: url(../img/features-item-3.svg);
+        -webkit-background-size: cover;
+        background-size: cover;
+    }
+    .features-item-workman{
+     width: 15%;
+     position: relative;
+ }
+ .features-item-workman:before{
     content: ' ';
     position: absolute;
     width: 50px;
@@ -371,73 +368,59 @@ margin-left: 25px;
 }
 .technik-menu-list__item-link{
     color:#3a444e;
-position: relative;}
-
-.technik-menu-list__item-link:hover{
-    text-decoration: none;
-    font-weight: bold;
-    padding-left: 10px;
-}
-.technik-menu-list__item-link:hover:before{
-    content: '';
-    position: absolute;
-    background-image: url(../img/catalog-list-pointer.svg);
-    background-repeat: no-repeat;
-    width: 8px;
-    height: 12px;
-    left:-1px;
-    top:3px;
-}
-.deals__title{
-    margin-top: 50px;
-}
+    position: relative;}
 
 
-.deals-table{
-    width: 100%;
-    border-collapse:collapse;
-}
-.deals-table__string{
-    height: 36px;
-    text-align: left;
-}
+    .deals__title{
+        margin-top: 50px;
+    }
 
-.deals-table__string:nth-child(odd){
-    background-color: #ffffff;
-}
-.deals-table__string:nth-child(1){
-    background-color: #dfdfdf;
-}
-.deals-table__cell:first-child{
-    padding-left: 12px;
-}
+
+    .deals-table{
+        width: 100%;
+        border-collapse:collapse;
+    }
+    .deals-table__string{
+        height: 36px;
+        text-align: left;
+    }
+
+    .deals-table__string:nth-child(odd){
+        background-color: #ffffff;
+    }
+    .deals-table__string:nth-child(1){
+        background-color: #dfdfdf;
+    }
+    .deals-table__cell:first-child{
+        padding-left: 12px;
+    }
 
 
 
-/*-------About--------*/
-.about{
-    background-color: #202e3b;
-}
-.about:after{
-    content:" ";
-    position: absolute;
-    width: 100%;
-    height: 14px;
-    display: block;
-    background-image:linear-gradient(135deg, black 35%, #ffcd34 35%,#ffcd34 65%, black 65%);
-    -webkit-background-size: 35px 20px;
-    background-size: 35px 20px;
-    margin-bottom: 15px;
-}
-.about>.container{
-  width: 960px;
-  height: 436px;
-  margin-right: auto;
-  margin-left: auto;
-  margin-top: 14px;
-  color: #fff;
-}
-.about-left{
+    /*-------About--------*/
+    .about{
+        background-color: #202e3b;
+    }
+    .about:after{
+        content:" ";
+        position: absolute;
+        width: 100%;
+        height: 14px;
+        display: block;
+        background-image:linear-gradient(135deg, black 35%, #ffcd34 35%,#ffcd34 65%, black 65%);
+        -webkit-background-size: 35px 20px;
+        background-size: 35px 20px;
+        margin-bottom: 15px;
+    }
+    .about>.container{
+      width: 960px;
+      height: 436px;
+      margin-right: auto;
+      margin-left: auto;
+      margin-top: 14px;
+      color: #fff;
+  }
+  .about-left{
     float: left;
     width: 32%;
 }
@@ -512,9 +495,10 @@ position: relative;}
 }
 /*-------Map---------*/
 .map__wood{
-    background-image: url(../img/map.jpg);
+    /*background-image: url(../img/map.jpg);*/
     -webkit-background-size: cover;
     background-size: cover;
+    margin-top: 14px;
     height: 500px;
 }
 
@@ -617,15 +601,15 @@ position: relative;}
 }
 .portfolio-item:nth-child(4):after{
     content:" ";
-        position: absolute;
-        width: 100%;
-        height: 14px;
-        display: block;
-        background-image:linear-gradient(135deg, black 35%, #ffcd34 35%,#ffcd34 65%, black 65%);
-        -webkit-background-size: 35px 20px;
-        background-size: 35px 20px;
-        margin-bottom: 15px;
-        z-index: 2;
+    position: absolute;
+    width: 100%;
+    height: 14px;
+    display: block;
+    background-image:linear-gradient(135deg, black 35%, #ffcd34 35%,#ffcd34 65%, black 65%);
+    -webkit-background-size: 35px 20px;
+    background-size: 35px 20px;
+    margin-bottom: 15px;
+    z-index: 2;
 }
 
 .portfolio-item-wood__first{
@@ -805,12 +789,12 @@ position: relative;}
     transition: linear 0.05s;
 }
 
-.item-link:hover{
+.catalog-aside__product-list-item:nth-child(2)>.item-link{
     text-decoration: none;
     font-weight: bold;
     padding-left: 10px;
 }
-.item-link:hover:before{
+.catalog-aside__product-list-item:nth-child(2)>.item-link:before{
     content: '';
     position: absolute;
     background-image: url(../img/catalog-list-pointer.svg);
@@ -1336,9 +1320,9 @@ position: relative;}
     .page-footer .page-logo__logo-brand{
         color:#ffcd34;
     }
-.page-footer a{
-    color:#fff;
-}
+    .page-footer a{
+        color:#fff;
+    }
 
     .page-footer .page-nav__list-item{border:2px solid #202e3b;}
     .page-footer .page-nav__list-item:hover{border:2px solid #48535e;}
