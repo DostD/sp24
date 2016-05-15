@@ -265,9 +265,10 @@ box-sizing: border-box;
     .features-item-tool:before{
         content: ' ';
         position: absolute;
-        width: 50px;
-        height: 50px;
+        width: 44px;
+        height: 41px;
         left:10px;
+        top:8px;
         background-image: url(../img/features-item-1.svg);
         -webkit-background-size: cover;
         background-size: cover;
@@ -280,9 +281,10 @@ box-sizing: border-box;
     .features-item-work:before{
         content: ' ';
         position: absolute;
-        width: 50px;
-        height: 50px;
-        left:10px;
+        width: 47px;
+        height: 41px;
+        left:5px;
+        top:8px;
         background-image: url(../img/features-item-2.svg);
         -webkit-background-size: cover;
         background-size: cover;
@@ -294,9 +296,10 @@ box-sizing: border-box;
     .features-item-fencing:before{
         content: ' ';
         position: absolute;
-        width: 50px;
-        height: 50px;
+        width: 44px;
+        height: 41px;
         left:10px;
+        top:8px;
         background-image: url(../img/features-item-3.svg);
         -webkit-background-size: cover;
         background-size: cover;
@@ -308,12 +311,13 @@ box-sizing: border-box;
  .features-item-workman:before{
     content: ' ';
     position: absolute;
-    width: 50px;
-    height: 50px;
-    left:10px;
+    width: 31px;
+    height: 40px;
+    left: 24px;
     background-image: url(../img/features-item-4.svg);
     -webkit-background-size: cover;
     background-size: cover;
+    top: 8px;
 }
 
 /*------Technik-------*/
